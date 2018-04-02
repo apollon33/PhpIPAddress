@@ -1,0 +1,117 @@
+/*
+Theme Name: Box
+Description: Based on Site under construction page for Wordpress by DeliciousThemes
+Version: 1.0
+*/
+
+
+/* === General Styles === */
+
+html,
+div,
+span,
+head,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+font,
+img,
+small,
+strong,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+ol,
+ul {    list-style: none }
+
+blockquote,
+q {    quotes: none }
+
+body {
+    font-family: PTSansRegular;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    line-height: 1;
+}
+
+body {    background: #aaaaaa url(images/bg.jpg) repeat scroll 0 0 }
+
+.container {
+    width: 885px;
+    margin: 0 auto;
+}
+
+#main {
+    background: url(images/page_background.png) no-repeat scroll 0 0;
+    margin: 0 auto;
+    padding: 0;
+    height: 430px;
+}
+
+
+/* === Header Styles === */
+
+#header {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+
+/* === Content Styles === */
+
+#content {    padding: 10px 44px }
+
+.text {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #262626;
+}
+
+.text h2 {
+    font-size: 30px;
+    color: #e5e5e5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.ipbox {
+    background: url(images/counter_bg.png) no-repeat scroll center 57px;
+    width: 797px;
+    height: 150px;
+    border-top: 1px solid #4f4f4f;
+    border-bottom: 1px solid #262626;
+    text-align: center;
+    position: relative;
+}
+
+.ipbox .ipaddress {
+    font-size: 40px;
+    color: #e5e5e5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: 75px;
+}
